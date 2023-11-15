@@ -1,0 +1,32 @@
+{Determinante de una matriz de orden 3 por Sarrus}
+
+read a;
+read b;
+read c;
+
+read d;
+read e;
+read f;
+
+read g;
+read h;
+read i;
+
+{Orden de la matriz}
+{a b c}
+{d e f}
+{g h i}
+
+
+{Ejemplo}
+{a b c}
+{d e f}
+{g h i}
+{a b c}
+{d e f}
+{Proceso}
+{=(aei+dhc+gbf)-(ceg+fha+ibd)}
+
+result:=(a*e*i+d*h*c+g*b*f)-(c*e*g+f*h*a+i*b*d);
+
+write result
